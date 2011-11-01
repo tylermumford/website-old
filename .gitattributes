@@ -3,3 +3,4 @@
 /.git export-ignore
 
 npp.session export-ignore
+/smallpaper/picasa.ini export-ignore
