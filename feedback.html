@@ -1,0 +1,158 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Feedback - Code Haven - Tyler Wayne</title>
+	<meta http-equiv="Content-type" content="text/html; charset=UTF-8" />
+	<link href="global.css" type="text/css" rel="stylesheet" />
+	<link href="feedback.css" type="text/css" rel="stylesheet" />
+</head>
+
+<body>
+<div class="topBox">
+	<h1 title="Code Haven">code haven</h1>
+
+	<p>
+	<small class="linkBar">
+	Pages:  <a href="home.html">Home Base</a> | <a href="about.html">About this Base</a> | <a href="design.html">Design Work</a> | <strong>Feedback</strong>
+	</small>
+	</p>
+</div>
+
+<div class="mainBox">
+<h2>Feedback <small>(Contacting Me)</small></h2>
+
+<!-- Blockquote used for indentation -->
+<blockquote>
+<p>
+There are several ways to tell me something, and all of them are valid. Feel free to just use the easiest method for you. Depending on what you want to say, however, one method might be more effective than the others. 
+</p>
+
+<p>Recommendations:</p>
+<dl>
+	<dt><strong>No matter what</strong> you want to do...</dt>
+	<dd>You can do it by emailing me at <a href="mailto:tyler.wayne.dev@gmail.com">tyler.wayne.dev@gmail.com</a>. I'll respond as fast as I can, and I'll make sure that I hear whatever it is that you have to say. In fact, the form at the bottom of this page is simply a fancy way of emailing me with specific details that my Gmail filters can detect.</dd>
+	<dt><strong>Submitting</strong> a bug report...</dt>
+	<dd>Is best done through the issue tracking system of the appropriate <a href="http://github.com/tylerwayne">GitHub</a> project (repository). These allow me to categorize issues effectively, even in large numbers. They are publicly visible, which means that others besides me have the ability to help out.</dd>
+	<dt><strong>Suggesting</strong> a feature...</dt>
+	<dd>Is also a good reason to use the issue trackers mentioned above. The system can track features, bugs, version goals &mdash; just about everything that can be categorized (and then some).</dd>
+	<dt><strong>Praising/complimenting</strong> my work...</dt>
+	<dd>If you've got a glowing review, send that to the appropriate <a href="https://chrome.google.com/webstore/search/Tyler%20Wayne">Chrome Web Store</a> page for the program. If there is no Web Store page, just email it to me, and (with your permission) I may decide to post it here on the website. Oh, and all of this applies to negative feedback, too. I <em>do</em> want to know how to improve myself and my work.</dd>
+	<dt><strong>Offering</strong> a job...</dt>
+	<dd>Hey, I can hope, right? I'm currently unemployed, but thankfully, I'm not in desperate need of a job. If you're looking, though, I might be interested. Please, email me so that we can talk about it.</dd>
+</dl>
+
+<button id="showform">Click to show the email form</button>
+
+<form name="feedbackform" action="FormToEmail.php" method="POST">
+<fieldset id="part1">
+<legend>Part 1 (optional)</legend>
+	<div>
+	<label>
+	<p class="itemhead">Your name:</p>
+		<input name="name" type="name"></input>
+	</label>
+	</div>
+	<div>
+	<label>
+	<p class="itemhead">Reply-to email address:</p>
+		<input name="email" type="email"></input>&nbsp;<small>Not required, but I can't directly respond unless you give it.</small>
+	</label>
+	</div>
+	<div>
+	<p class="itemhead">Type of feedback:</p>
+		<select name="type">
+		<option value="notselected">---</option>
+		<option value="reinforcement">Positive Reinforcement</option>
+		<option value="featurerequest">Feature Request</option>
+		<option value="jobrequest">Job Request</option>
+		<option value="bugreport">Bug Report</option>
+		</select>
+	</div>
+	<div>
+	<p class="itemhead">Product involved:</p>
+		<label class="inlineradio">
+			<input type="radio" name="whichproduct" value="Goodness" /> Goodness
+		</label>
+		<label class="inlineradio">
+			<input type="radio" name="whichproduct" value="MLIx" /> MLIx
+		</label>
+		<label class="inlineradio">
+			<input type="radio" name="whichproduct" value="Blue Ray" /> Blue Ray
+		</label>
+		<label class="keeptogether inlineradio">
+			<input type="radio" name="whichproduct" value="Other" /><input type="text" name="whichproduct-other" id="specifyother"/>
+		</label>
+	</div>
+	<!-- 
+	If I were to add checkboxes, this is what they'd look like:
+	<div>
+	<p>Operating Systems:</p>
+		<label><input type="checkbox" name="OS-1" value="Windows" / > Windows</label>
+		<label><input type="checkbox" name="OS-2" value="Mac" /> Mac OS X</label>
+		<label><input type="checkbox" name="OS-3" value="Linux"> Linux/Unix variant</label>
+	</div>	
+	However, I want to keep this form simple, and I already feel that it's too complicated.
+	-->
+	<div>
+	<label>
+	<p class="itemhead">Summary:</p>
+		<input name="subject" type="subject" id="subjectfield"></input>
+	</label>
+	</div>
+</fieldset>
+
+<fieldset id="part2">
+<legend>Part 2 (reason you're here)</legend>
+	<div>
+	<label>
+	<p class="itemhead">Main message:</p>
+		<textarea name="main_msg"></textarea>
+	</label>
+	</div>
+	<div>
+	<label>
+	<p class="itemhead">Other comments:</p>
+		<textarea name="other_msg"></textarea>
+	</label>
+	</div>
+</fieldset>
+
+<fieldset id="part3">
+<legend>Part 3 (required)</legend>
+	<p class="itemhead">
+	<button name="submit">The Submit Button</button>
+	</p>
+</fieldset>
+<!-- <input type="hidden" name="subject" value="Feedback Form" /> (Given above) -->
+<input type="hidden" name="redirect" value="feedback-thanks.html" />
+</form>
+
+</blockquote>
+</div>
+
+<div class="footerBox">
+	&copy; Tyler Wayne &bull; 2011<br />
+	Find me 
+	<a href="http://github.com/tylerwayne" target="_blank">on GitHub</a> and on 
+	<a href="https://chrome.google.com/webstore/search/Tyler%20Wayne" target="_blank">the Chrome Web Store</a>.
+	<br />
+	You could also send an email to <a href="mailto:tyler.wayne.dev@gmail.com">this address</a>, but don't send me any spam, please. Nobody wants that.
+</div>
+</body>
+
+<script type="text/javascript">
+window.button = document.getElementById('showform');
+window.form = document.forms[0];
+
+button.style.display = "block";
+form.style.display = "none";
+
+// When clicked, hides the button and shows the form.
+button.onclick = function(event) {
+	window.button.style.display = "none";
+	window.form.style.display = "block";
+	return;
+}
+</script>
+</html>

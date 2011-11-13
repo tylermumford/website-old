@@ -4,3 +4,5 @@
 
 npp.session export-ignore
 /smallpaper/picasa.ini export-ignore
+
+_template.html export-ignore
