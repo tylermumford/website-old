@@ -31,7 +31,7 @@ There are several ways to tell me something, and all of them are valid. Feel fre
 <p>Recommendations:</p>
 <dl>
 	<dt><strong>No matter what</strong> you want to do...</dt>
-	<dd>You can do it by emailing me at <a href="mailto:tyler.wayne.dev@gmail.com">tyler.wayne.dev@gmail.com</a>. I'll respond as fast as I can, and I'll make sure that I hear whatever it is that you have to say. In fact, the form at the bottom of this page is simply a fancy way of emailing me with specific details that my Gmail filters can detect.</dd>
+	<dd>You can do it by emailing me at <a href="mailto:tyler.wayne.dev@gmail.com">tyler.wayne.dev@gmail.com</a>. I'll respond as fast as I can, and I'll make sure that I hear whatever it is that you have to say.</dd>
 	<dt><strong>Submitting</strong> a bug report...</dt>
 	<dd>Is best done through the issue tracking system of the appropriate <a href="http://github.com/tylerwayne">GitHub</a> project (repository). These allow me to categorize issues effectively, even in large numbers. They are publicly visible, which means that others besides me have the ability to help out.</dd>
 	<dt><strong>Suggesting</strong> a feature...</dt>
@@ -42,91 +42,6 @@ There are several ways to tell me something, and all of them are valid. Feel fre
 	<dd>Hey, I can hope, right? I'm currently unemployed, but thankfully, I'm not in desperate need of a job. If you're looking, though, I might be interested. Please, email me so that we can talk about it.</dd>
 </dl>
 
-<button id="showform">Click to show the email form</button>
-
-<form name="feedbackform" action="FormToEmail.php" method="POST">
-<fieldset id="part1">
-<legend>Part 1 (optional)</legend>
-	<div>
-	<label>
-	<p class="itemhead">Your name:</p>
-		<input name="name" type="name"></input>
-	</label>
-	</div>
-	<div>
-	<label>
-	<p class="itemhead">Reply-to email address:</p>
-		<input name="email" type="email"></input>&nbsp;<small>Not required, but I can't directly respond unless you give it.</small>
-	</label>
-	</div>
-	<div>
-	<p class="itemhead">Type of feedback:</p>
-		<select name="type">
-		<option value="notselected">---</option>
-		<option value="reinforcement">Positive Reinforcement</option>
-		<option value="featurerequest">Feature Request</option>
-		<option value="jobrequest">Job Request</option>
-		<option value="bugreport">Bug Report</option>
-		</select>
-	</div>
-	<div>
-	<p class="itemhead">Product involved:</p>
-		<label class="inlineradio">
-			<input type="radio" name="whichproduct" value="Goodness" /> Goodness
-		</label>
-		<label class="inlineradio">
-			<input type="radio" name="whichproduct" value="MLIx" /> MLIx
-		</label>
-		<label class="inlineradio">
-			<input type="radio" name="whichproduct" value="Blue Ray" /> Blue Ray
-		</label>
-		<label class="keeptogether inlineradio">
-			<input type="radio" name="whichproduct" value="Other" /><input type="text" name="whichproduct-other" id="specifyother"/>
-		</label>
-	</div>
-	<!-- 
-	If I were to add checkboxes, this is what they'd look like:
-	<div>
-	<p>Operating Systems:</p>
-		<label><input type="checkbox" name="OS-1" value="Windows" / > Windows</label>
-		<label><input type="checkbox" name="OS-2" value="Mac" /> Mac OS X</label>
-		<label><input type="checkbox" name="OS-3" value="Linux"> Linux/Unix variant</label>
-	</div>	
-	However, I want to keep this form simple, and I already feel that it's too complicated.
-	-->
-	<div>
-	<label>
-	<p class="itemhead">Summary:</p>
-		<input name="subject" type="subject" id="subjectfield"></input>
-	</label>
-	</div>
-</fieldset>
-
-<fieldset id="part2">
-<legend>Part 2 (reason you're here)</legend>
-	<div>
-	<label>
-	<p class="itemhead">Main message:</p>
-		<textarea name="main_msg"></textarea>
-	</label>
-	</div>
-	<div>
-	<label>
-	<p class="itemhead">Other comments:</p>
-		<textarea name="other_msg"></textarea>
-	</label>
-	</div>
-</fieldset>
-
-<fieldset id="part3">
-<legend>Part 3 (required)</legend>
-	<p class="itemhead">
-	<button name="submit">The Submit Button</button>
-	</p>
-</fieldset>
-<!-- <input type="hidden" name="subject" value="Feedback Form" /> (Given above) -->
-<input type="hidden" name="redirect" value="feedback-thanks.html" />
-</form>
 
 </blockquote>
 </div>
@@ -140,19 +55,4 @@ There are several ways to tell me something, and all of them are valid. Feel fre
 	You could also send an email to <a href="mailto:tyler.wayne.dev@gmail.com">this address</a>, but don't send me any spam, please. Nobody wants that.
 </div>
 </body>
-
-<script type="text/javascript">
-window.button = document.getElementById('showform');
-window.form = document.forms[0];
-
-button.style.display = "block";
-form.style.display = "none";
-
-// When clicked, hides the button and shows the form.
-button.onclick = function(event) {
-	window.button.style.display = "none";
-	window.form.style.display = "block";
-	return;
-}
-</script>
 </html>
