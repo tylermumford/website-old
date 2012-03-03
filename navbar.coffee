@@ -1,10 +1,12 @@
 names = [
 	"Home Base",
-	"About This Base"
+	"About This Base",
+	"Effective Design"
 ]
 urls = [
 	"index.html",
-	"about.html"
+	"about.html",
+	"design.html"
 ]
 
 # Determine if the given URL is the current page
