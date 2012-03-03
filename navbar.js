@@ -1,9 +1,19 @@
 (function() {
-  var fillNavBar, names, urls;
+  var fillNavBar, isCurrent, names, urls;
 
   names = ["Home Base", "About This Base"];
 
   urls = ["index.html", "about.html"];
+
+  isCurrent = function(url) {
+    if ((document.URL.search(url)) !== -1) {
+      return true;
+    } else if (document.URL === "http://tylerwayne.github.com" && url === "index.html") {
+      return true;
+    } else {
+      return false;
+    }
+  };
 
   fillNavBar = function() {
     var index, name, navbar, nextEl, _len;
@@ -13,7 +23,7 @@
       nextEl = document.createElement("a");
       nextEl.innerText = name;
       nextEl.href = "http://tylerwayne.github.com/" + urls[index];
-      if ((document.URL.search(urls[index])) !== -1) nextEl.className = "current";
+      if (isCurrent(urls[index])) nextEl.className = "current";
       navbar.appendChild(nextEl);
     }
     return navbar.style.display = "block";
