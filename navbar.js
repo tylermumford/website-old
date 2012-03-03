@@ -22,8 +22,8 @@
       name = names[index];
       nextEl = document.createElement("a");
       nextEl.innerText = name;
-      nextEl.href = "http://tylerwayne.github.com/" + urls[index];
-      if (isCurrent(urls[index])) nextEl.className = "current";
+      nextEl.href = urls[index];
+      if (isCurrent(nextEl.href)) nextEl.className = "current";
       navbar.appendChild(nextEl);
     }
     return navbar.style.display = "block";

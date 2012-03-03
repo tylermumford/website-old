@@ -10,9 +10,11 @@ urls = [
 # Determine if the given URL is the current page
 isCurrent = (url) ->
 	if (document.URL.search url) != -1
+		# If the current URL contains the given URL
 		return true
 	else if document.URL == "http://tylerwayne.github.com" and \
 	url == "index.html"
+		# Allow "index.html" to be equal to the homepage
 		return true
 	else
 		return false
@@ -23,11 +25,11 @@ fillNavBar = ->
 	for name,index in names
 		nextEl = document.createElement "a"
 		nextEl.innerText = name
-		nextEl.href = "http://tylerwayne.github.com/" + urls[index]
+		nextEl.href = urls[index]
 		# Determine the current page
-		if isCurrent urls[index]
+		if isCurrent nextEl.href
 			nextEl.className = "current"
-		navbar.appendChild (nextEl)
+		navbar.appendChild nextEl
 	navbar.style.display = "block"
 
 window.addEventListener 'load', fillNavBar
