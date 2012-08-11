@@ -17,7 +17,7 @@
 
   fillNavBar = function() {
     var index, name, navbar, nextEl, _len;
-    navbar = document.getElementsByClassName("nav")[0];
+    navbar = document.getElementsByTagName("nav")[0];
     for (index = 0, _len = names.length; index < _len; index++) {
       name = names[index];
       nextEl = document.createElement("a");
