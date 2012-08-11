@@ -18,14 +18,16 @@
   fillNavBar = function() {
     var index, name, navbar, nextEl, _len;
     navbar = document.getElementsByTagName("nav")[0];
+
     for (index = 0, _len = names.length; index < _len; index++) {
-      name = names[index];
-      nextEl = document.createElement("a");
+      name             = names[index];
+      nextEl           = document.createElement("a");
       nextEl.innerText = name;
-      nextEl.href = urls[index];
+      nextEl.href      = urls[index];
       if (isCurrent(nextEl.href)) nextEl.className = "current";
-      navbar.appendChild(nextEl);
+        navbar.appendChild(nextEl);
     }
+
     return navbar.style.display = "block";
   };
 
