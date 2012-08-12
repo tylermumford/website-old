@@ -39,8 +39,8 @@ nav { display: none; border: 3px solid #24446D; }
 
 nav > a               { padding: 0 8px 0 8px; }
 nav > a.current       { font-weight: bolder; color: black; }
-nav > a.current:hover { text-shadow: 0 0 0 transparent; }
-nav > a:hover         { text-shadow: 0 0 1px black; text-decoration: none; }
+nav > a.current:hover { /*text-shadow: 0 0 0 transparent;*/ }
+nav > a:hover         { /*text-shadow: 0 0 1px black;*/ /*text-decoration: none*/; }
 
 /* ARTICLE SCOPE */
 article     { border: 3px solid #24446D; }
