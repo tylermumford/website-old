@@ -18,7 +18,9 @@ h1 { font-family: RetroVilleNCRegular, Helvetica, Arial, sans-serif; font-size: 
      text-align: center;
      margin: 17px 5px 17px 5px; }
 
-a.titleLink { color: white; }
+h1 > a    { color: white; }
+h3:before { content: "{ "; }
+h3:after  { content: " }"; }
 
 header, nav, article, footer { max-width: 1024px; margin-top: 14px; 
                                margin-left: auto; 
