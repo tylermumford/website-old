@@ -1,9 +1,9 @@
 (function() {
   var fillNavBar, isCurrent, names, urls;
 
-  names = ["Home Base", "About This Base", "Effective Design"];
+  names = ["Home Base", "About Me", "Portfolio", "Effective Design"];
 
-  urls = ["index.html", "about.html", "design.html"];
+  urls = ["index.html", "about.html", "portfolio.html", "design.html"];
 
   isCurrent = function(url) {
     if ((document.URL.search(url)) !== -1) {
