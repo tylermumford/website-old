@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>{{ page.title }} &mdash; Code Haven &mdash; Tyler Wayne</title>
+  <link href="global.css" rel="stylesheet" />
+</head>
+
+<body>
+<header>
+  <hgroup>
+    <h1 alt="Code Haven"><a href="index.html" class="titleLink">code haven</a></h1>
+  </hgroup>
+</header>
+
+<nav class="main-nav">{% include main-nav.html %}</nav>
+
+<article>
+  {{ content }}
+</article>
+
+<footer>
+  {% include footer.html %}
+</footer>
+
+</body>
+</html>
