@@ -1,0 +1,2 @@
+future: false
+exclude: [ mysite.sublime-project, mysite.sublime-workspace ]
