@@ -5,7 +5,7 @@ title: Links
 
 ## Links
 
-[Goodness] is my most successful program. It's a Chrome extension designed to help people overcome pornography addictions. Its goal is to place and keep the user in a positive, uplifting frame of mind.
+[Goodness] is my most successful project to date: a Chrome extension designed to help people overcome pornography addictions. Its goal is to place and keep the user in a positive, uplifting frame of mind.
   
 [MLIx&#772;] is a good way to demonstrate one reason why I choose to code. [My Life Is Average] is a website where people share interesting stories about their lives. It's similar to Twitter, but much more humorous. One day, I had the idea to improve the functionality and visual appeal of the site. So I made this Chrome extension to do just that.
   
