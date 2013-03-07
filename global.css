@@ -29,8 +29,10 @@ h1 {
 
 h1 > a         { color: white; }
 h1 > a:visited { color: white; }
+/*
 h3:before      { content: "{ "; }
 h3:after       { content: " }"; }
+*/
 
 header, nav, article, footer {
   box-shadow: 0 0 7px black;
@@ -51,7 +53,10 @@ header {
 }
 
 /* NAV SCOPE */
-nav { border: 3px solid #24446D; }
+nav {
+  border: 3px solid #24446D;
+  text-align: center;
+}
 
 nav > a               { padding: 0 8px 0 8px; }
 nav > a.current       { font-weight: bolder; color: black; }
@@ -62,8 +67,14 @@ nav > a:hover         { /*text-shadow: 0 0 1px black;*/ /*text-decoration: none*
 article     { border: 3px solid #24446D; }
 article > * { margin-left: 30px; margin-right: 30px; }
 
-blockquote          { max-width: 50em; }
-blockquote > .right { text-align: right; margin-top: 0; }
+blockquote {
+  max-width: 50em;
+}
+.right {
+  display: block;
+  text-align: right;
+  margin-top: 0;
+}
 
 /* FOOTER SCOPE */
 footer {
