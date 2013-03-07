@@ -79,6 +79,8 @@
 	},
 	"file_history":
 	[
+		"/Users/tyler/Developer/tylerwayne.github.com/mysite.sublime-project",
+		"/Users/tyler/Developer/tylerwayne.github.com/.mysite.sublime-project",
 		"/Users/tyler/Developer/tylerwayne.github.com/_layouts/default.html",
 		"/Users/tyler/Developer/tylerwayne.github.com/_config.yml",
 		"/Users/tyler/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
@@ -318,7 +320,7 @@
 		]
 	},
 	"menu_visible": true,
-	"project": "/Users/tyler/Developer/tylerwayne.github.com/.mysite.sublime-project",
+	"project": "/Users/tyler/Developer/tylerwayne.github.com/mysite.sublime-project",
 	"replace":
 	{
 		"height": 64.0
