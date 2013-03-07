@@ -1,0 +1,10 @@
+{
+  "folders":
+  [
+    {
+      "path": "/Users/tyler/Developer/tylerwayne.github.com",
+      "file_exclude_patterns": [".git*", ".mysite*"],
+      "folder_exclude_patterns": ["_site"]
+    }
+  ]
+}
