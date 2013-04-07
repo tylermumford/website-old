@@ -10,6 +10,7 @@
 body {
   margin: 0;
   padding: 0;
+  position: relative;
 }
 
 a         { color: #76841B; text-decoration: none; }
@@ -81,4 +82,21 @@ footer {
   background-color: #CCCCCC;
   font-size: small;  
   max-width: 600px; padding: .7em 1.2em;
+}
+
+/* SIGNATURE SCOPE */
+.locked-box {
+  background-color: black;
+  margin: 0;
+  padding: 8px 0 0 8px;
+  position: absolute;
+}
+.bottom-right {
+  bottom: 0;
+  right: 0;
+}
+.TM {
+  color: white;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 10pt;
 }
