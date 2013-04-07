@@ -1,0 +1,23 @@
+<div class="locked-box bottom-right">
+  <span class="TM">&#0153;</span>
+</div>
+<style>
+  body {
+    position: relative;
+  }
+  .locked-box {
+    background-color: black;
+    margin: 0;
+    padding: 8px 0 0 8px;
+    position: absolute;
+  }
+  .bottom-right {
+    bottom: 0;
+    right: 0;
+  }
+  .TM {
+    color: white;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 10pt;
+  }
+</style>
