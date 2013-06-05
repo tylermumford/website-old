@@ -4,17 +4,16 @@
 <head>
   <meta charset="UTF-8" />
   <title>{{ page.title }} &mdash; Code Haven &mdash; Tyler Wayne</title>
-  <link href="/global.css" rel="stylesheet" />
+  <link href="/css/default-structure.css" rel="stylesheet" />
+  <link href="/css/global-style.css" rel="stylesheet" />
 </head>
 
 <body>
-<header>
-  <hgroup>
-    <h1><a href="/index.html" class="titleLink">code haven</a></h1>
-  </hgroup>
+<header >
+  <h1><a href="/" class="titleLink">code haven</a></h1>
 </header>
 
-<nav class="main-nav">{% include main-nav.html %}</nav>
+<nav class="main-navbar">{% include main-nav.html %}</nav>
 
 <article>
   {{ content }}
