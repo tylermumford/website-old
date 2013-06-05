@@ -27,14 +27,12 @@ h1 {
   text-align: center;
 }
 
-h1 > a {
-  color: white;
-}
-h1 > a:visited {
+h1 > a, h1 > a:visited {
   color: white;
 }
 
 header, .main-navbar, article, footer {
+  border: 3px solid #24446D;
   box-shadow: 0 0 7px black;
 }
 
@@ -47,23 +45,16 @@ header {
 }
 
 .main-navbar {
-  border: 3px solid #24446D;
   text-align: center;
 }
 .main-navbar > a {
   padding: 0 8px 0 8px;
 }
-.main-navbar > a.current {
-  font-weight: bolder; color: black;
-}
-
-article {
-  border: 3px solid #24446D;
-}
 
 footer {
   font-size: small;  
   background-color: #CCCCCC;
+  border: none;
 }
 
 /* Signature */
