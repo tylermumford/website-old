@@ -10,17 +10,21 @@
 
 <body>
 <header >
-  <h1><a href="/" class="titleLink">code haven</a></h1>
+  <h1>
+    <a href="/" class="titleLink">code haven</a>
+  </h1>
 </header>
 
-<nav class="main-navbar">{% include main-nav.html %}</nav>
+<nav class="main-navbar">
+{% include main-nav.html %}
+</nav>
 
 <article>
-  {{ content }}
+{{ content }}
 </article>
 
 <footer>
-  {% include footer.html %}
+{% include footer.html %}
 </footer>
 
 {% include analytics %}
