@@ -19,14 +19,6 @@ article > * {
   margin-right: 30px;
 }
 
-blockquote {
-  max-width: 50em;
-}
-.right {
-  display: block;
-  margin-top: 0;
-}
-
 li, li > p {
   margin-bottom: 0;
   margin-top: 0;
