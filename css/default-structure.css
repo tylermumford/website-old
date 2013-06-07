@@ -14,7 +14,7 @@ h1 {
   margin: 17px 5px;
 }
 
-article > p, article > h2, article > h3 {
+article > * {
   margin-left: 60px;
   margin-right: 60px;
 }
