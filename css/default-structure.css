@@ -30,13 +30,3 @@ footer {
   max-width: 600px;
   padding: .7em 1.2em;
 }
-
-.locked-box {
-  margin: 0;
-  padding: 8px 0 0 8px;
-  position: absolute;
-}
-.bottom-right {
-  bottom: 0;
-  right: 0;
-}

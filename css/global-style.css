@@ -63,13 +63,3 @@ footer {
   background-color: #DDD;
   border: none;
 }
-
-/* Signature */
-.locked-box {
-  background-color: black;
-}
-.TM {
-  color: white;
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 10pt;
-}
