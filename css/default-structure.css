@@ -6,8 +6,11 @@ body {
 
 header, .main-navbar, article, footer {
   margin: 15px auto auto;
-  /*max-width: 900px;*/
   padding: 2ex 10px;
+}
+
+header {
+  margin-top: 0;
 }
 
 h1 {

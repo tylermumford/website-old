@@ -1,5 +1,5 @@
-html {
-  font-family: 'Source Sans Pro';
+* {
+  font-family: 'Source Sans Pro', Helvetica, sans-serif;
 }
 
 a {
@@ -12,13 +12,8 @@ a:visited {
   color: #808D34;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Source Sans Pro', Helvetica, sans-serif;
-}
-
 h1 {
   color: white;
-  font-family: 'Source Sans Pro', Helvetica, sans-serif;
   font-size: 3em;
   font-weight: 600;
   letter-spacing: 5px;
@@ -31,7 +26,6 @@ h1 > a, h1 > a:visited {
 }
 
 .byline {
-  font-family: 'Source Sans Pro', Helvetica, sans-serif;
   text-align: center;
   font-weight: 100;
 }
