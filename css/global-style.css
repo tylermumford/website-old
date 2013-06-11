@@ -20,14 +20,20 @@ h1 {
   color: white;
   font-family: 'Source Sans Pro', Helvetica, sans-serif;
   font-size: 3em;
-  font-style: 600;
-  font-variant: small-caps;
+  font-weight: 600;
+  letter-spacing: 5px;
   text-align: center;
   text-shadow: 0 1px 1px black;
 }
 
 h1 > a, h1 > a:visited {
   color: white;
+}
+
+.byline {
+  font-family: 'Source Sans Pro', Helvetica, sans-serif;
+  text-align: center;
+  font-weight: 100;
 }
 
 header, .main-navbar, article, footer {
