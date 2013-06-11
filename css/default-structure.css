@@ -5,13 +5,13 @@ body {
 }
 
 header, .main-navbar, article, footer {
-  margin: 14px auto auto;
-  max-width: 900px;
+  margin: 15px auto auto;
+  /*max-width: 900px;*/
   padding: 2ex 10px;
 }
 
 h1 {
-  margin: 17px 5px;
+  margin: 2px auto;
 }
 
 article > * {

@@ -39,7 +39,7 @@ h1 > a, h1 > a:visited {
 }
 
 header, .main-navbar, article, footer {
-  border: 3px solid #24446D;
+  /*border: 3px solid #24446D;*/
   box-shadow: 0 0 7px black;
 }
 
@@ -60,7 +60,7 @@ header {
 
 footer {
   font-size: small;  
-  background-color: #CCCCCC;
+  background-color: #DDD;
   border: none;
 }
 
