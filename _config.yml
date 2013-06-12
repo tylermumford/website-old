@@ -1,2 +1,3 @@
 future: false
-exclude: [ mysite.sublime-project, mysite.sublime-workspace ]
+name: Code Haven
+byline: Design. All the way through.
