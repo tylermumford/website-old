@@ -2,6 +2,10 @@
   font-family: 'Source Sans Pro', sans-serif;
 }
 
+html {
+  font-size: 100%;
+}
+
 a {
   color: #76841B; text-decoration: none;
 }
@@ -14,10 +18,10 @@ a:visited {
 
 h1 {
   color: white;
-  font-size: 3em;
+  font-size: 3rem;
   font-variant: small-caps;
   font-weight: 100;
-  letter-spacing: 8px;
+  letter-spacing: 0.5rem;
   text-align: center;
   text-shadow: 0 1px 1px black;
 }
@@ -28,7 +32,9 @@ h1 > a, h1 > a:visited {
 
 .byline {
   text-align: center;
+  font-size: 0.9rem;
   font-weight: 100;
+  letter-spacing: 0.1rem;
 }
 
 header, .main-navbar, article, footer {
@@ -44,12 +50,36 @@ header {
 
 .main-navbar {
   text-align: center;
+  font-size: 1rem;
 }
 .main-navbar > a {
   padding: 0 8px 0 8px;
 }
 
+h2 {
+  font-size: 1.6rem;
+}
+
 footer {
-  font-size: small;
+  font-size: .8rem;
   background-color: #DDD;
+}
+
+@media (max-device-width: 600px) {
+  html {
+    font-size: 240%;
+  }
+
+  .main-navbar {
+    font-weight: 600;
+  }
+
+  .main-navbar > a {
+    text-decoration: underline;
+  }
+
+  footer {
+    max-width: 100%;
+    padding-left: 60px;
+  }
 }
