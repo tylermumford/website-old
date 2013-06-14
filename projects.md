@@ -15,7 +15,7 @@ title: Projects
 
 I've got some app ideas for iOS and Mac. I'll be writing more as I start working on them.
 
-### Old Projects
+### Retired
   
 - [MLIx&#772;] is another Chrome extension. It was my attempt to improve the [My Life Is Average] interface.
   
