@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Posts
+title: Blog Posts
 ---
 
-## Posts
+## {{ page.title }}
 
 {% for post in site.posts %}
 ### [{{ post.title }}]({{ site.url }} {{ post.url }})
 {% endfor %}
 
-As you can see, the current number of posts approaches 0.
+There will be an RSS feed for this blog as soon as there are enough entries to warrant one.
