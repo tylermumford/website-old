@@ -6,7 +6,33 @@ title: 04-math-functions
 ---
 
 {% highlight c++ %}
-This assignment isn't finished yet.
+// Tyler Mumford, 2014
+// Show cos, exp, log, pow, sqrt, ceil, floor
+
+#include <stdio.h>
+#include <math.h>
+
+#define PI 3.14159265
+
+int main () {
+	printf("cos(0) = %.0f, cos(pi/2) = %.0f, cos(pi) = %.0f\n",
+		cos(0), cos(PI/2), cos(PI));
+	printf("e^1 = %f, e^2 = %f, e^10 = %f\n",
+		exp(1), exp(2), exp(10));
+	printf("log(1) = %f, log(pi) = %f, log(10) = %f\n",
+		log(1), log(PI), log(10));
+	printf("2^2 = %.0f, 2^10 = %.0f, 10^10 = %.0f\n",
+		pow(2,2), pow(2,10), pow(10,10));
+	printf("sqrt(4) = %.0f, sqrt(64) = %.0f, sqrt(10) = %f\n",
+		sqrt(4), sqrt(64), sqrt(10));
+	printf("ceil(1.3) = %.1f, ceil(1.7) = %.1f, ceil(1.0) = %.1f\n",
+		ceil(1.3), ceil(1.7), ceil(1.0));
+	printf("floor(1.3) = %.1f, floor(1.7) = %.1f, floor(1.0) = %.1f\n",
+		floor(1.3), floor(1.7), floor(1.0));
+
+	return 0;
+}
+
 {% endhighlight %}
 
-<!-- <img src="04-math-functions.png"> -->
+<img src="04-math-functions.png">
