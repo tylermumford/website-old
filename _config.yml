@@ -1,4 +1,8 @@
 future: false
 name: Mindful Code
 byline: Designed. All the way through.
-markdown: kramdown
+markdown: redcarpet
+
+collections:
+    assignments:
+        output: true

@@ -1,0 +1,40 @@
+---
+
+layout: default
+title: 07-sine
+
+---
+
+{% highlight c++ %}
+// Tyler Mumford
+// Write and test a function that computes n values of the sine fuction evenly spaced beween 0 and 2*pi.
+
+#include <stdio.h>
+#include <math.h>
+
+#define USER_INPUT 0
+#define PI 3.14159265
+
+int main () {
+	int n, i;
+	if (USER_INPUT) {
+		printf("How many values do you want? > ");
+		scanf("%d", &n);
+	} else {
+		n = 8;
+	}
+
+	double step = 2 * PI / n;
+	double value = 0.0;
+	// step is a radian value.
+
+	for (i = 0; i < n; i++) {
+		printf("Value %d: %.3f\n", i+1, sin(value));
+		value += step;
+	}
+
+	return 0;
+}
+{% endhighlight %}
+
+<img src="07-sine.png">

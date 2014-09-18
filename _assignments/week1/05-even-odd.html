@@ -1,0 +1,53 @@
+---
+
+layout: default
+title: 05-even-odd
+
+---
+
+{% highlight c++ %}
+// Tyler Mumford
+// Write a function that prints whether an integer is even or odd (test on 4 integers).
+
+#include <stdio.h>
+#include <stdbool.h>
+
+#define SIZE 4
+
+_Bool isEven (int);
+char* evenOrOdd(int);
+
+int main () {
+	// int *n = [0, 1, 2, 31];
+	int n, i;
+	int values[SIZE] = {0, 1, 2, 31};
+
+	for (i = 0; i < SIZE; ++i)
+	{
+		n = values[i];
+		printf("%2d is %s\n", n, evenOrOdd(n));
+	}
+
+	return 0;
+}
+
+_Bool isEven (int i) {
+	if (i == 0 || i % 2 == 0)
+		return true;
+	else
+		return false;
+}
+
+char* evenOrOdd (int i) {
+	char* result;
+
+	if (isEven(i))
+		result = "even";
+	else
+		result = "odd";
+
+	return result;
+}
+{% endhighlight %}
+
+<img src="05-even-odd.png">

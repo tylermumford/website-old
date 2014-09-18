@@ -1,0 +1,36 @@
+---
+
+layout: default
+title: tmlib.h
+
+---
+
+{% highlight c++ %}
+// Tyler Mumford, 2014
+// Helper definitions.
+
+#pragma once
+#include <stdio.h>
+// #include <stdlib.h>
+
+void printArrayInt (int *array, int count) {
+	int i;
+
+	printf("[ ");
+	for (i = 0; i < count; i++) {
+		printf("%d ", array[i]);
+	}
+	printf("]\n");
+}
+
+void printArrayDouble (double *array, int count, int precision) {
+	int i;
+
+	printf("[ ");
+	for (i = 0; i < count; i++) {
+		printf("%.*f ", precision, array[i]);
+	}
+	printf("]\n");
+}
+
+{% endhighlight %}
