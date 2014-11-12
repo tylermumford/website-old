@@ -1,8 +1,4 @@
 future: false
 name: Mindful Code
 byline: Designed. All the way through.
-markdown: redcarpet
-
-collections:
-    assignments:
-        output: true
+#markdown: redcarpet
