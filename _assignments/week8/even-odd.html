@@ -1,0 +1,52 @@
+---
+
+layout: default
+title: even-odd
+
+---
+
+{% highlight c++ %}
+// Tyler Mumford, 2014
+// Write a function that prints whether an integer is even or odd (test on 4 integers).
+
+#include <iostream>
+#include <string>
+const int SIZE = 4;
+
+using namespace std;
+
+bool isEven (int);
+string evenOrOdd (int);
+
+int main () {
+	int n, i;
+	int values[SIZE] = {0, 1, 2, 31};
+
+	for (i = 0; i < SIZE; ++i)
+	{
+		n = values[i];
+		cout << n << " is " << evenOrOdd(n) << endl;
+	}
+
+	return 0;
+}
+
+bool isEven (int i) {
+	if (i == 0 || i % 2 == 0)
+		return true;
+	else
+		return false;
+}
+
+string evenOrOdd (int i) {
+	string result;
+
+	if (isEven(i))
+		result = "even";
+	else
+		result = "odd";
+
+	return result;
+}
+
+{% endhighlight %}

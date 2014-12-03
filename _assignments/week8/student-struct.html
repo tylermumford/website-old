@@ -1,0 +1,40 @@
+---
+
+layout: default
+title: student-struct
+
+---
+
+{% highlight c++ %}
+// Tyler Mumford, 2014
+// Using a struct to represent a student
+
+#include <iostream>
+
+using namespace std;
+
+typedef struct {
+	char *first;
+	char *last;
+	char *major;
+	char *email;
+} Student;
+
+void printStudent (Student student) {
+	cout << "Name: " << student.last << ", " << student.first << endl;
+	cout << "Major: " << student.major << endl;
+	cout << "Email: " << student.email << endl;
+}
+
+int main (int argc, char *argv[]) {
+	Student me = {"Tyler", "Mumford", "Computer Science", "tyler.mumford@icloud.com"};
+	Student mike = {"Mike", "Wazowski", "Scaring", "mikew@example.com"};
+
+	printStudent(me);
+	cout << endl;
+	printStudent(mike);
+
+	return 0;
+}
+
+{% endhighlight %}

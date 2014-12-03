@@ -1,0 +1,60 @@
+---
+
+layout: default
+title: array-compare
+
+---
+
+{% highlight c++ %}
+// Tyler Mumford, 2014
+// Function returns true if two arrays are identical.
+
+#include <iostream>
+#include "tmlib-cpp.h"
+
+using namespace std;
+
+bool arraysAreEqual (int *firstArray, int *secondArray, int count);
+
+int main () {
+	int four[] = {1,2,3,4};
+	int fourCopy[] = {1,2,3,4};
+	int five[] = {1,2,3,4,5};
+
+	cout << "four: ";
+	printArrayInt(four, 4);
+
+	cout << "fourCopy: ";
+	printArrayInt(fourCopy, 4);
+
+	cout << "five: ";
+	printArrayInt(five, 5);
+
+	cout << endl;
+
+	if (arraysAreEqual(four, fourCopy, 4)) {
+		cout << "four and fourCopy are equal.\n";
+	} else {
+		cout << "four and fourCopy are not equal.\n";
+	}
+
+	if (arraysAreEqual(four, five, 5)) {
+		cout << "four and five are equal.\n";
+	} else {
+		cout << "four and five are not equal.\n";
+	}
+
+	return 0;
+}
+
+bool arraysAreEqual (int *firstArray, int *secondArray, int count) {
+	int i;
+
+	for (i = 0; i < count; i++) {
+		if (firstArray[i] != secondArray[i]) return false;
+	}
+
+	return true;
+}
+
+{% endhighlight %}
