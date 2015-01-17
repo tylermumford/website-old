@@ -1,8 +1,4 @@
 future: false
 name: Mindful Code
-byline: Designed. All the way through.
+byline: "Software should be elegant, from the inside out."
 markdown: redcarpet
-
-collections:
-    assignments:
-        output: true
