@@ -2,7 +2,7 @@
   font-family: 'Source Sans Pro', sans-serif;
 }
 
-html {
+body {
   font-size: 100%;
 }
 
@@ -76,7 +76,7 @@ footer {
 
 @media (max-device-width: 600px) {
   html {
-    font-size: 240%;
+    /*font-size: 240%;*/
   }
 
   .main-navbar {
@@ -85,6 +85,10 @@ footer {
 
   .main-navbar > a {
     text-decoration: underline;
+  }
+
+  article > * {
+    margin-left: auto;
   }
 
   footer {

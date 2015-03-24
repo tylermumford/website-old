@@ -5,20 +5,4 @@ title: Stuff I Use
 
 ---
 
-## Mac
-
-- Things
-- Byword
-- Sublime Text
-- Gitbox
-- Transmit
-- Safari
-- Day One
-
-## iPhone
-
-- Things
-- Byword
-- Reeder
-- Fantastical
-- GoalStreaks
+I used to keep a list of apps here. Now I don't.
