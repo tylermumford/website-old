@@ -35,7 +35,7 @@ h2 {
 
 article > * {
   margin-left: 60px;
-  margin-right: auto;
+  margin-right: 60px;
   max-width: 50rem;
 }
 

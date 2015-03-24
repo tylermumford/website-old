@@ -74,17 +74,13 @@ footer {
   background-color: #DDD;
 }
 
-@media (max-device-width: 600px) {
+@media (max-width: 600px) {
   html {
     /*font-size: 240%;*/
   }
 
-  .main-navbar {
-    font-weight: 600;
-  }
-
-  .main-navbar > a {
-    text-decoration: underline;
+  h1 {
+    line-height: 1;
   }
 
   article > * {
@@ -93,6 +89,5 @@ footer {
 
   footer {
     max-width: 100%;
-    padding-left: 60px;
   }
 }
