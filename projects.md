@@ -9,7 +9,7 @@ title: Projects
 
 ### Recent
 
-My friend Scott had a great idea for a mobile game called *Falling Spikes*. It sounded cool, so I built it! Check out the [source code] (https://github.com/tylermumford/falling-spikes).
+My friend Scott had a great idea for a mobile game called *Falling Spikes*. It sounded cool, so I built it! Check out the [source code](https://github.com/tylermumford/falling-spikes).
 
 I worked on a web app called [JuxtaPros] with some friends. It's not online at the moment, but it was cool enough that it [might come back](http://juxtapros.com) sometime.
 
