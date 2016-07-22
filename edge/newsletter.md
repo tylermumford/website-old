@@ -24,4 +24,6 @@ Scott and I became partners, so we both benefit from the game’s App Store rele
 
 For myself, the main benefit is experience. Having always worked in a web development world, branching out is a great way to show employers that I have the skills they need and the capacity to learn. It also helps me by being in my professional portfolio; as one of my most ambitious projects, it demonstrates skill as a developer. Plus I had fun making it!
 
-![Game on iPhone homescreen](img/home-screen.png)
+<p style="text-align:center">
+    <img src="img/home-screen.png" style="width:35%"/>
+</p>
