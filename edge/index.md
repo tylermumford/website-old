@@ -3,7 +3,7 @@ layout: default
 title: Falling Spikes — EDGE Portfolio
 ---
 
-# Falling Spikes — EDGE Portfolio
+## Falling Spikes — EDGE Portfolio
 
 Falling Spikes is an iPhone game and the name of my EDGE project. This portfolio is divided into:
 
