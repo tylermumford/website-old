@@ -13,4 +13,4 @@ Falling Spikes is an iPhone game and the name of my EDGE project. This portfolio
  - [Newsletter](newsletter.html)
  - [Press Release](press.html)
  - [Reflection](reflection.html)
- - Blog Posts: [Chapter 1](/posts/2016-07-22-falling-spikes-chapter-1.html), Chapter 2 in progress
+ - Blog Posts: [Chapter 1]({% post_url 2016-07-22-falling-spikes-chapter-1 %}), Chapter 2 in progress

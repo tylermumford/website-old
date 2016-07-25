@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Falling Spikes: The Journey, Chapter 2
+title: Falling Spikes: The Journey Chapter 2
 ---
 
 ## Falling Spikes: The Journey, Chapter 2
