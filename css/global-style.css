@@ -37,11 +37,11 @@ h1 > a, h1 > a:visited {
   letter-spacing: 0.1rem;
 }
 
-header, .main-navbar, article, footer {
+.site-head, .main-navbar, .site-content, .site-foot {
   box-shadow: 0 0 5px #888;
 }
 
-header {
+.site-head {
   color: white;
   background-color: #297032;
   box-shadow: inset 0 0 60px black;
@@ -73,7 +73,7 @@ pre, pre * {
     word-wrap: break-word;       /* Internet Explorer 5.5+ */
 }
 
-footer {
+.site-foot {
   font-size: .8rem;
   background-color: #DDD;
 }
@@ -83,12 +83,12 @@ footer {
     line-height: 1;
   }
 
-  article > * {
+  .site-content > * {
     margin-left: auto;
     margin-right: auto;
   }
 
-  footer {
+  .site-foot {
     max-width: 100%;
   }
 }
